@@ -21,7 +21,7 @@ function Home2() {
                         <p className = "home-about-body">
                             I've been in manufacturing for over 10 years. 
                             <i>
-                                <b className = "purple"> The last 7 in Coca Cola as
+                                <b className = "purple"> The last 7 at Coca Cola as
                                 Team Leader.</b>
                             </i> 
                             <br />
@@ -73,7 +73,7 @@ function Home2() {
                         <ul className = "home-about-social-links">
                             <li className = "social-icons"> {/*Github*/}
                                 <a
-                                    href = ""
+                                    href = "https://github.com/nehuenortega"
                                     target = "_blank"
                                     rel = "noreferrer"
                                     className = "icon-colour home-social-icons"
@@ -84,7 +84,7 @@ function Home2() {
                             
                             <li className = "social-icons"> {/*Twitter*/}
                                 <a
-                                    href = ""
+                                    href = "https://twitter.com/CrisApablaza"
                                     target = "_blank"
                                     rel = "noreferrer"
                                     className = "icon-colour home-social-icons"
@@ -95,7 +95,7 @@ function Home2() {
 
                             <li className = "social-icons"> {/*Linkedin*/}
                                 <a
-                                    href = ""
+                                    href = "https://www.linkedin.com/in/cristian-nehuen-apablaza-ortega/"
                                     target = "_blank"
                                     rel = "noreferrer"
                                     className = "icon-colour home-social-icons"
@@ -103,17 +103,6 @@ function Home2() {
                                     <FaLinkedinIn />
                                 </a>
                             </li>
-                            
-                            {/* <li className = "social-icons"> {/*Instragram*
-                                <a
-                                    href = ""
-                                    target = "_blank"
-                                    rel = "noreferrer"
-                                    className = "icon-colour home-social-icons"
-                                >
-                                    <AiFillInstragram />
-                                </a>
-                            </li> */}
                         </ul>
                     </Col>
                 </Row>

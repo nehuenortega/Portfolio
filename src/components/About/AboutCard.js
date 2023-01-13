@@ -23,6 +23,9 @@ function AboutCard() {
                             <ImPointRight /> Reading Comics.
                         </li>
                         <li className = "about-activity">
+                            <ImPointRight /> Training.
+                        </li>
+                        <li className = "about-activity">
                             <ImPointRight /> Travelling.
                         </li>
                     </ul>
@@ -30,7 +33,6 @@ function AboutCard() {
                     <p style = {{ color: "rgb(155 126 172" }}>
                         "The More I Learn I Realize The Less I Know."{" "}
                     </p>
-                    {/* <footer className = "blockquote-footer">NehuenOrtega</footer> */}
                 </blockquote>
             </Card.Body>
         </Card>

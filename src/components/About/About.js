@@ -5,6 +5,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Softskill from "./Softskill";
 
 function About() {
     return(
@@ -38,6 +39,12 @@ function About() {
                         <img src = { laptopImg } alt = "about" className = "img-fluid"/>
                     </Col>
                 </Row>
+
+                <h1 className = "project-heading">
+                    Professional <strong className ="purple">Soft Skill</strong>
+                </h1>
+
+                <Softskill />
 
                 <h1 className = "project-heading">
                     Professional <strong className ="purple">Skillset</strong>

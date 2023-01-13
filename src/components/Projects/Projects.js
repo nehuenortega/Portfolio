@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
+import lacane from "../../Assets/Projects/lacane.png";
+import coder from "../../Assets/Projects/coder.png";
 
 function Projects() {
     return (
@@ -23,12 +20,34 @@ function Projects() {
                 <Row style = {{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md = { 4 } className = "project-card">
                         <ProjectCard
-                            imgPath = { chatify }
+                            imgPath = { lacane }
                             isBlog = { false }
-                            title = "Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
+                            title = "Lacané"
+                            description ="Website, developed in group, of virtual store Lacané for final project of the Full-Stack Developer of the Government of the Ciudad de Buenos Aires, build with HTML, CSS and JavaScript."
+                            ghLink="https://github.com/nehuenortega/Lacane"
+                            demoLink="https://nehuenortega.github.io/Lacane/index.html"
+                        />
+                    </Col>
+
+                    <Col md = { 4 } className = "project-card">
+                        <ProjectCard
+                            imgPath = { ecommerce }
+                            isBlog = { false }
+                            title = "E-Commerce Backend"
+                            description ="E-Commerce Backend Project for Backend Developer Course of Coderhouse. Deployed in Heroku, is build with Handlebars, Express.js, Node.js."
+                            ghLink="https://github.com/nehuenortega/Coderhouse-Backend/tree/main/Entrega_17"
+                            demoLink="https://nehuenortegadeploy.herokuapp.com/api/usuario/login"
+                        />
+                    </Col>
+
+                    <Col md = { 4 } className = "project-card">
+                        <ProjectCard
+                            imgPath = { coder }
+                            isBlog = { false }
+                            title = "Backend Coderhouse Course"
+                            description ="All practices for Backend Developer Course of Coderhouse. The Road Map include Node.js, Express.js, Middlewares, MySQL, CRUD with MongoDB, Mongoose, Global & Child Process, Mocks, NVM, API REST."
+                            ghLink="https://github.com/nehuenortega/Coderhouse-Backend"
+                            demoLink=""
                         />
                     </Col>
                 </Row>
