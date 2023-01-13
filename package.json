@@ -2,7 +2,9 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  
+  "engines": {
+      "node": ">=16.x <18"
+  },
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -23,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts –OpenSSL-legacy-provider build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
